@@ -84,9 +84,9 @@ From the ``helloworld`` directory, run:
          directory in the container. You can then install the requirements
          necessary to run Briefcase inside the container::
 
-             $ apt-get update
-             $ apt-get install git python3-dev python3-pip libgirepository1.0-dev libcairo2-dev libpango1.0-dev libwebkitgtk-3.0-0 gir1.2-webkit-3.0
-             $ python3 -m pip install --pre beeware
+             # apt-get update
+             # apt-get install git python3-dev python3-pip libgirepository1.0-dev libcairo2-dev libpango1.0-dev libwebkitgtk-3.0-0 gir1.2-webkit-3.0
+             # python3 -m pip install --pre beeware
 
          There is no need to use a virtual environment inside the Docker
          container, as Docker provides the isolation layer that virtual
