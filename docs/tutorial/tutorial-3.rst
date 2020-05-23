@@ -283,7 +283,7 @@ You can now use Briefcase to run your application:
 
       (beeware-venv) C:\...>
 
-This will start your run your native application, using the output of the
+This will start your native application, using the output of the
 `build` command.
 
 You may notice some small differences in the way your application looks when
